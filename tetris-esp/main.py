@@ -29,7 +29,7 @@ class Cuadricula:
 		# esta variable guarda una superficie que guarda un cuadro y se le asigna color despues
 		self.superficie = pygame.Surface((MEDIDA_MOSAICO - 2, MEDIDA_MOSAICO - 2))
 
-	# este metodo
+	# este metodo dibuja la pieza que ya no se mueve de acuerdo al valor de la matriz
 	def dibujar(self):
 		for i in range(self.filas):
 			for j in range(self.columnas):
